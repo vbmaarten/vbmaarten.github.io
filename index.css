@@ -1,4 +1,4 @@
-body {
+/mabody {
 	background-image: url("background.png");
 	font-family: 'Open Sans';
 	color: #1467b1;
@@ -59,7 +59,7 @@ a{
 
 .local{
 	padding: 0px;
-	margin: 5px;
+	margin: 3px;
 	margin-left: 20px;
 	font-size: 35px;
 	text-shadow: 3px 3px rgba(0,0,0,0.4);

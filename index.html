@@ -1,51 +1,37 @@
----
-layout: default
----
-
-<div class="home">
-
-  {% if site.theme.header_text %}
-  <div class="call-out">{{ site.theme.header_text }}</div>
-  {% endif %}
-
-  <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-    
-      <header>
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
-        
-        <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-      </header>
-
-      <div class="excerpt">
-        {{ post.excerpt }}
-
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
-      </div>
-      
-    </div>
-    {% endfor %}
-  </div>
-
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-  
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i> 
-      {{ site.theme.str_prev }}
-    </a>
-    {% endif %}
-
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme.str_next }} 
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
-</div>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="content">
+		<div id="content_header">
+				<div id = "headhead">
+					<div id="imgwrap">
+						<a href="http://www.aegee.org"><img id="aegee-europe" src="aegee-europe.png"/></a>
+					</div>
+					<p id="text">The dutch speaking antennae</p>
+				</div>
+			    <div id = "headfoot">
+					<div class="red bar">   </div>
+					<div class="green bar"> </div>	
+					<div class="purple bar"></div>
+					<div class="yellow bar"></div>
+					<div class="blue bar">  </div>
+					<div class="purple bar"></div>
+				</div>
+		</div>
+		<div id="content_body">
+			<p class="local"><a href="http://www.aegee-amsterdam.nl">Amsterdam</a></p>		
+			<p class="local"><a href="http://www.aegee-delft.nl">Delft</a></p> 	
+			<p class="local"><a href="http://www.aegee.tue.nl">Eindhoven</a></p> 	
+			<p class="local"><a href="http://www.aegee-enschede.nl">Enschede</a></p> 	
+			<p class="local"><a href="http://www.aegee-groningen.nl">Groningen</a></p> 
+			<p class="local"><a href="http://www.aegee-maastricht.nl">Maastricht</a></p> 
+			<p class="local"><a href="http://aegee-nijmegen.nl">Nijmegen</a></p> 	
+			<p class="local"><a href="http://www.aegee-tilburg.nl">Tilburg</a></p> 
+			<p class="local"><a href="http://www.aegee-utrecht.nl">Utrecht</a></p> 
+		</div>
+	</div>
+</body>
+</html>

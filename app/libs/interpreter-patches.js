@@ -85,7 +85,7 @@ Interpreter.prototype.getCurrentScope = function(){
 
 		
 		if(!itself && node.funcThis_ ){
-			itself = this.convertScope(node.funcThis_)
+			itself = _convertObject(node.funcThis_)
 		}
 		iscope = node.scope;
 		i++
@@ -93,9 +93,13 @@ Interpreter.prototype.getCurrentScope = function(){
 	} while( !iscope)
 	var result = this.convertScope( iscope );
 	if(!itself && node.thisExpression){
-		itself = this.convertScope( node.thisExpression)
+		itself = _convertObject( node.thisExpression)
 	}
+
 	result.this = itself;
+	if(this.stateStack[0].value){
+		result.$result = _convertProperty(this.stateStack[0].value)
+	}
 	return result;
 }
 

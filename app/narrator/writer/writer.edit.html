@@ -15,26 +15,30 @@
 	</select>
 </div>
 
-<div class="item button-wide add" ng-click="addItem()"></div>
+<div ng-class="{
+	'button-wide add': selectedNarrative.isFSNarrative(),
+	'add-fixed': selectedNarrative.isCodeNarrative()
+}"ng-click="addItem()"></div>
 
 <div ng-repeat="item in selectedNarrative.items track by $index">
 	<div item-edit class="item">
 		<i ng-click="removeItem(item)" class="fa fa-times remove-item"></i>
 
 	</div>
-	<div class="item button-wide add" ng-click="addItem(item)"></div>
+	<div class="button-wide add" ng-click="addItem(item)"></div>
 </div>
 
 <div ng-repeat="node in selectedNarrative.narrativeHooks track by $index" id="{{node.path}}" class="narrative-hook" ng-class="{'stashed': (node==stashed) }">
-	<p class="narrative-hook-name">
+	<p ng-click="goToItemHook(node.path)" class="narrative-hook-name">
 	  <i ng-click='stash(node.path)' class="fa fa-chain-broken unhook">  </i>
-	  <span ng-click="goToItemHook(node.path)">  {{node.path}} </span> 
+	  <span >  {{node.path}} </span> 
 	</p>
+	<div class="button-wide add" ng-click="addItem(item, node.path)"></div>
 	<div ng-repeat="item in node.items" ng-class="{'stashed' : (stashed==item) }">
 		<div item-edit class="item" >
 			<i ng-click="removeItem(item,node.path)"class="fa fa-times remove-item"></i>
 			<i ng-click='stash(node.path , item)' class="fa fa-chain-broken move-item">  </i>
 		</div>
-		<div class="item button-wide add" ng-click="addItem(item)"></div>
+		<div class="button-wide add" ng-click="addItem(item, node.path)"></div>
 	</div>
 </div>

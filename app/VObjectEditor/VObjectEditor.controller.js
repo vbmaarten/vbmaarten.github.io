@@ -50,13 +50,11 @@ angular.module('VObjectEditor').controller('VObjectEditorCtrl', [
       var height = this.height, width = this.width, center = this.center, data;
 
       function update(newData) {
-        data = newData;
         var group = svg.selectAll('g').data(newData);
-        var groupEnter = svg.enter().append('g');
-        groupEnter.attr('transform', function (d, i) {
-          return 'translate(' + 1 * i + ',0)';
-        });
-        group.exit().remove();
+        group.exit().remove(); //exit 
+        group.enter().append('g').text(function(d,i){return ''+d}) //enter 
+        group.attr('color','red') // update 
+
       }
       update(data);
       return {
@@ -88,6 +86,7 @@ angular.module('VObjectEditor').controller('VObjectEditorCtrl', [
       $scope.selectedVObject.object = $scope.VObjects[key];
       $scope.VCode.content = 'var ' + key.toLowerCase() + 'Object = new ' + key + '([]);\n';
       $scope.VCode.content += 'display(' + key.toLowerCase() + 'Object.domEl);';
+      console.log($scope.selectedVObject);
     };
 
     $scope.test = function () {

@@ -1,0 +1,37 @@
+<html ng-app="aegeeowee">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	<script src='index.js'></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body ng-controller="MainCtrl">
+	<div id="overlay"></div>
+	<div id="logo"><img id="img_logo" src="logo.png"></div id="logo">
+	<div id="main">
+		<div id="menu">
+			<div class="menu_item" ng-click="watisaegee()"><img src="watisaegee.png"></img></div>
+			<div class="menu_item" ng-click="programma()"><img src="programma.png"></img></div>
+			<div class="menu_item" ng-click="liftreis()"><img src="liftreis.png"></img></div>
+			<div class="menu_item" ng-click="inschrijven()"><img src="inschrijven.png"></img></div>
+		</div>
+		<div id="content">
+		<div id="text">
+			<div id=wrapper>
+			<h1>{{ text.header }}</h1>
+			<p>{{ text.p1 }}</p>
+			<p>{{ text.p2 }}</p>
+			<p>{{ text.p3 }}</p>
+			<p>{{ text.p4 }}</p>	
+			</div>
+		</div>
+		<div id="images">
+			<img ng-src="{{img1.src}}" id="promo_img" ></img>
+			<div id="promo_text">{{img1.txt}}</div>
+			<img ng-src="{{img2.src}}" id="promo_img" ></img>
+			<div id="promo_text">{{img2.txt}}</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

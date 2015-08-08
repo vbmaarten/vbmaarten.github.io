@@ -32,8 +32,8 @@ phonecatApp.controller('MainCtrl', function ($scope) {
 	  };
 	  
 	  $scope.img1 = {
-		src: "brussels.jpg",
-		txt: "AEGEE-Delft in Brussel"
+		src: "https://scontent.xx.fbcdn.net/hphotos-xtf1/t31.0-8/10257859_703125203084665_2701933478000210135_o.jpg",
+		txt: "Agora Patra"
 	  };
 	  
 	  $scope.img2 = {
@@ -47,7 +47,7 @@ phonecatApp.controller('MainCtrl', function ($scope) {
 		header: 'Lekker liften',
 		p1: "Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. ",
 		p2: "Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet.",
-		p3: "",
+		Hp3: "",
 		p4: ""
 	  };
 	  

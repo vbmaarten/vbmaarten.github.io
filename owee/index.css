@@ -5,6 +5,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto Condensed', sans-serif;
+	background-size: 100% auto; 
 }
 
 #img_logo{
@@ -21,6 +22,15 @@ body{
 	margin-left: 15%;
 	margin: auto;
 	animation: fadein 2s;
+}
+
+#mf {
+	display: block;
+	font-weight: bold;
+	color: #CB1A1A;
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
 }
 
 @keyframes fadein {

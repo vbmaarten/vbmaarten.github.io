@@ -16,10 +16,7 @@ phonecatApp.controller('MainCtrl', function ($scope, $sce) {
 		txt: "AEGEE-Delft in Brussel"
 	  };
 	  
-	  $scope.img2 = {
-		src: "brussels.jpg",
-		txt: "AEGEE-Delft nog een keer in Brussel"
-	  };
+	  $scope.imagelink = {src: "https://www.facebook.com/media/set/?set=a.803200839743767.1073741856.147899015273956&type=3"}	
   };
   
    $scope.programma = function(){
@@ -30,55 +27,44 @@ phonecatApp.controller('MainCtrl', function ($scope, $sce) {
 		p3: "",
 		p4: ""
 	  };
+
+	  $scope.imagelink = {src: "https://www.facebook.com/media/set/?set=a.703125006418018.1073741848.147899015273956&type=3"}
 	  
 	  $scope.img1 = {
 		src: "https://scontent.xx.fbcdn.net/hphotos-xtf1/t31.0-8/10257859_703125203084665_2701933478000210135_o.jpg",
 		txt: "Agora Patra"
 	  };
-	  
-	  $scope.img2 = {
-		src: "brussels.jpg",
-		txt: "AEGEE-Delft nog een keer in Brussel"
-	  };
   };
   
     $scope.liftreis = function(){
 	  $scope.text = {
-		header: 'Lekker liften',
-		p1: "Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. ",
-		p2: "Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet.",
+		header: 'Lift mee naar Hamburg',
+		p1: $sce.trustAsHtml("Van <b>2 t/m 4 oktober</b> organiseert AEGEE-Delft de introductieliftreis naar Hamburg! Voor de nog onervaren lifter organiseren wij vooraf aan deze reis een liftworkshop. Dus of je nu al heel de wereld rondgelift bent, of nog nooit met je duim omhoog langs de weg hebt gestaan, iedereen kan meedoen! Tijdens deze trip zullen wij een bezoek brengen aan AEGEE-Hamburg en aan hun hand alle voor toeristen onbekende plekjes in de stad ontdekken! De reis is open voor leden en niet-leden.	"),
+		p2: "",
 		Hp3: "",
 		p4: ""
 	  };
+
+	  $scope.imagelink = {src: "https://www.facebook.com/media/set/?set=a.727693353961183.1073741853.147899015273956&type=3"}
 	  
 	  $scope.img1 = {
-		src: "brussels.jpg",
-		txt: "AEGEE-Delft in Brussel"
-	  };
-	  
-	  $scope.img2 = {
-		src: "brussels.jpg",
-		txt: "AEGEE-Delft nog een keer in Brussel"
+		src: "https://scontent.xx.fbcdn.net/hphotos-xtp1/t31.0-8/10460605_727693627294489_827561284992213002_o.jpg",
+		txt: "Liftreis naar Budapest"
 	  };
   };
   
      $scope.inschrijven = function(){
 	  $scope.text = {
 		header: 'Leuk dat je lid wil worden!',
-		p1: "Klik <a href='www.google.nl'>hier</a> om je in te schrijven",
-		p2: "",
+		p1: $sce.trustAsHtml("Kom even bij ons langs voor een inschrijfformulier of klik <a href='http://aegee-delft.nl/en/lid-worden/'>hier</a> om je online in te schrijven."),
+		p2: $sce.trustAsHtml(''),
 		p3: "",
 		p4: ""
 	  };
-	  
+	  $scope.imagelink = {src: "https://www.facebook.com/media/set/?set=a.861961077201076.1073741861.147899015273956&type=3"}
 	  $scope.img1 = {
-		src: "brussels.jpg",
-		txt: "AEGEE-Delft in Brussel"
-	  };
-	  
-	  $scope.img2 = {
-		src: "brussels.jpg",
-		txt: "AEGEE-Delft nog een keer in Brussel"
+		src: "https://scontent.xx.fbcdn.net/hphotos-xfp1/t31.0-8/11045361_861964610534056_2385158455267824917_o.jpg",
+		txt: "Reis naar Riga, Tallinn & Helsinki"
 	  };
   };
   

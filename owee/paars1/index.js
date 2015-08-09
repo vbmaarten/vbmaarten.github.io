@@ -56,7 +56,7 @@ phonecatApp.controller('MainCtrl', function ($scope, $sce) {
      $scope.inschrijven = function(){
 	  $scope.text = {
 		header: 'Leuk dat je lid wil worden!',
-		p1: $sce.trustAsHtml("Kom even bij ons langs voor een inschrijfformulier (je kunt ons vinden in de Bonte Os, Voldersgracht 10) of klik <a href='http://aegee-delft.nl/en/lid-worden/'>hier</a> om je online in te schrijven."),
+		p1: $sce.trustAsHtml("Kom even bij ons langs voor een inschrijfformulier (je kunt ons vinden in Caf&#233; de Bonte Os, Voldersgracht 10) of klik <a href='http://aegee-delft.nl/en/lid-worden/'>hier</a> om je online in te schrijven."),
 		p2: $sce.trustAsHtml(''),
 		p3: "",
 		p4: ""

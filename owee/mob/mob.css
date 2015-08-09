@@ -1,0 +1,65 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-size: cover; 
+	overflow: hidden;
+}
+
+#header{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+#black overlay{
+	
+}
+
+#hamburger {
+	width: 15%;
+	height: 10%;
+	font-size: 4vh;
+	text-align: center;
+	color: black;
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+
+#text{
+	background-color: #e3e4f9;
+	min-height: 100%;
+	color: #2d353c;
+	padding: 5%;
+	font-size: 3vh;
+	padding-top: 55%;
+}
+
+#menu {
+	background-color: #b19cd9;
+	height: 10%;
+	width: 100%;
+	font-size: 4vh;
+	line-height: 100%;
+    text-align:center;
+    color: white;
+}
+
+#title {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top:13%;
+    height: 30%;
+    color: white;
+	font-size: 8vh;
+	text-weight: bold;
+    text-align:center;
+}

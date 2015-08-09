@@ -1,6 +1,4 @@
 body {
-	width: 100%;
-	height: 100%;
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -27,7 +25,6 @@ body {
 }
 
 #text{
-	min-height: 100%;
 	color: #2d353c;
 	padding: 5%;
 	font-size: 30px;

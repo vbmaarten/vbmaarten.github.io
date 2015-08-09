@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	font-family: 'Roboto Condensed', sans-serif;
 	background-color: #e3e4f9;
+	width: 100%;
 }
 
 #header{
@@ -28,4 +29,5 @@ body {
 	color: #2d353c;
 	padding: 5%;
 	font-size: 30px;
+	width: 100%;
 }

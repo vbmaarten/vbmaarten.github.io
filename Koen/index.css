@@ -9,6 +9,8 @@ body{
 	margin-left: 37vw;
 	width: 26vw;
 	height: 100vh;
+	opacity: 0;
+	transition: opacity 0.5s;
 }
 
 @font-face {
@@ -38,8 +40,23 @@ body{
 }
 
 #picture{
-	width: 100%;
 	padding-bottom: 2%;
+}
+#crossfader{
+	position: relative;	
+	height: 17.33vw;
+	width: 499.19px;
+}
+#crossfader img {
+	-webkit-backface-visibility: hidden;
+	width: 499.19px;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#crossfader .active {
+	opacity: 1;
 }
 
 #text2{

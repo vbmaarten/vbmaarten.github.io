@@ -18,5 +18,5 @@ var crossfade = function(){
 
 $(document).ready(function(){
 	setTimeout(crossfade, crossspeed);
-	$("#main")[0].style.opacity = 1;
+	setTimeout(function(){$("#main")[0].style.opacity = 1;), 500);
 });

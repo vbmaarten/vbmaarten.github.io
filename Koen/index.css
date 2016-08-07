@@ -47,7 +47,7 @@ body{
 }
 #crossfader img {
 	-webkit-backface-visibility: hidden;
-	width: 499.19px;
+	width: 26vw;
 	position: absolute;
 	opacity: 0;
 	transition: opacity 1s;

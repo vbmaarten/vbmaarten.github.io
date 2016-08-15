@@ -8,8 +8,8 @@ body{
 }
 
 #main{
-	margin-left: 37vw;
-	width: 26vw;
+	margin-left: 33vw;
+	width: 34vw;
 	height: 100vh;
 }
 
@@ -33,7 +33,7 @@ body{
 #heading{
 	width: 100%;
 	text-align: center;
-	padding-top: 19.5%;
+	padding-top: 4.5%;
 	font-family: "Kabel Bold";	
 	font-size: 6.5vw;
 	padding-bottom: 0.7%;
@@ -44,12 +44,12 @@ body{
 }
 #crossfader{
 	position: relative;	
-	height: 17.33vw;
-	width: 499.19px;
+	height: 23.65vw;
+	width: 34vw;
 }
 #crossfader img {
 	-webkit-backface-visibility: hidden;
-	width: 26vw;
+	width: 34vw;
 	position: absolute;
 	opacity: 0;
 	transition: opacity 1s;

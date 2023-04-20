@@ -1,0 +1,26 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn build:static && pug --watch -O inventory.json -o build src/index.pug",
+    "build:static": "mkdir -p build && cp src/static/* build",
+    "watch": "yarn build:static && tmux new-session -d -s watch 'fish' && tmux split-window -v -t watch:0 'yarn watch:browser-sync' && tmux split-window -h -t watch:0 'bash -c \"yarn watch:pug\"' && tmux attach -t watch",
+    "watch:browser-sync": "browser-sync start -f './build/*' -s build",
+    "watch:pug": "pug --watch -O inventory.json -o build src/index.pug"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "resolutions": {
+    "del": "6.1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "items": [
+    {
+      "name": "Groene trui",
+      "url": "https://www.uniqlo.com/eu/en/product/cotton-crew-neck-sweatshirt-444966.html?dwvar_444966_color=COL56&cgid=IDm-sweatshirts-and-hoodie&dwvar_444966_size=SMA003",
+      "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/444966/item/goods_56_444966.jpg?width=722&impolicy=quality_70&imformat=chrome",
+      "tags": [
+        "trui",
+        "kleren"
+      ]
+    },
+    {
+      "name": "Paarse trui",
+      "url": "https://www.uniqlo.com/eu/en/product/men-sweatshirt-444966.html?dwvar_444966_color=COL74&cgid=IDm-sweatshirts-and-hoodie&&dwvar_444966_size=SMA003",
+      "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/444966/item/goods_74_444966.jpg?width=450&impolicy=quality_70",
+      "tags": [
+        "trui",
+        "kleren"
+      ]
+    },
+    {
+      "name": "Zwarte broek",
+      "url": "https://www.c-and-a.com/nl/nl/shop/clockhouse-slim-jeans-jog-denim-2151907/1",
+      "image": "https://www.c-and-a.com/img/product/q_auto:good,b_rgb:E0DEDA,c_scale,w_574/v1633159975/productimages/2151907-1-08.jpg",
+      "tags": [
+        "broek",
+        "kleren"
+      ],
+      "bgColor": "#ECECEC"
+    }  ],
+  "tags": [
+    "trui",
+    "broek",
+    "tas",
+    "kleren",
+    "keukendingentjes"
+  ]
+}

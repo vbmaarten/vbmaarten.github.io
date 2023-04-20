@@ -1,0 +1,36 @@
+extends templates/page
+
+block content
+  .page-wrapper.with-sidebar.with-navbar(x-data=`{ textFilter: "", tags: {${tags.map(t => `${t}: false`)}}}`)
+    nav.navbar
+      .navbar-content
+        button.btn.btn-action(type="button" @click="halfmoon.toggleSidebar()")
+          i.fa.fa-bars
+        a.navbar-brand(href="#")
+          img.img-rounded(src="logo.png")
+          span=title
+
+    .sidebar
+      .sidebar-menu
+        .sidebar-content
+          input.form-control.search(placeholder="Search..." x-model="textFilter")
+      .sidebar-menu
+        .sidebar-content
+          each tag in tags
+            span.hand.badge.m-5(@click=`tags.${tag}=!tags.${tag}` x-bind:class=`tags.${tag} ? 'badge-danger' : ''`)=tag
+
+    .content-wrapper
+      .container
+        .row
+          each item in items
+            template(x-if=`(!textFilter || "${item.name}".toLowerCase().includes(textFilter.toLowerCase())) && ![${item.tags.map(t => `"${t}"`)}].some(x => tags[x])`)
+              .col-sm-4
+                  .card
+                      h2.card-title #{item.name}
+                      .content
+                        img.square.img-fluid(src=item.image)
+                      each tag in item.tags
+                          span.badge.m-5=tag
+                      .text-right
+                        a.btn.btn-primary(href=item.url role="button") To store
+

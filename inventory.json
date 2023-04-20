@@ -44,10 +44,21 @@
         "reizen",
         "kleren"
       ]
-    } ],
+    },
+    {
+      "name": "Grijs t-shirt",
+      "url": "https://www.uniqlo.com/eu/en/product/100pct-supima-cotton-crew-neck-t-shirt-452399.html?dwvar_452399_size=SMA003&dwvar_452399_color=COL07",
+      "image": "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/452399/item/eugoods_07_452399.jpg?width=722&impolicy=quality_70&imformat=chrome",
+      "tags": [
+        "t-shirt",
+        "kleren"
+      ]
+    }
+  ],
   "tags": [
     "trui",
     "broek",
+    "t-shirt
     "tas",
     "kleren",
     "reizen"

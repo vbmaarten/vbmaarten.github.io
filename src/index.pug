@@ -17,7 +17,7 @@ block content
       .sidebar-menu
         .sidebar-content
           each tag in tags
-            span.hand.badge.m-5(@click=`tags["${tag}"=!tags["${tag}"]` x-bind:class=`tags["${tag}"] ? 'badge-danger' : ''`)=tag
+            span.hand.badge.m-5(@click=`tags["${tag}"]=!tags["${tag}"]` x-bind:class=`tags["${tag}"] ? 'badge-danger' : ''`)=tag
 
     .content-wrapper
       .container

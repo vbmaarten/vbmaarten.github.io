@@ -1,7 +1,7 @@
 extends templates/page
 
 block content
-  .page-wrapper.with-sidebar.with-navbar(x-data=`{ textFilter: "", tags: {${tags.map(t => `${t}: false`)}}}`)
+  .page-wrapper.with-sidebar.with-navbar(x-data=`{ textFilter: "", tags: {${tags.map(t => `"${t}": false`)}}}`)
     nav.navbar
       .navbar-content
         button.btn.btn-action(type="button" @click="halfmoon.toggleSidebar()")
@@ -17,7 +17,7 @@ block content
       .sidebar-menu
         .sidebar-content
           each tag in tags
-            span.hand.badge.m-5(@click=`tags.${tag}=!tags.${tag}` x-bind:class=`tags.${tag} ? 'badge-danger' : ''`)=tag
+            span.hand.badge.m-5(@click=`tags["${tag}"=!tags["${tag}"]` x-bind:class=`tags["${tag}"] ? 'badge-danger' : ''`)=tag
 
     .content-wrapper
       .container

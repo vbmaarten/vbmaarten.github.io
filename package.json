@@ -14,13 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.29.1"
-  },
-  "dependencies": {
-    "gulp": "^4.0.2",
+    "browser-sync": "^2.29.1",
     "pug-cli": "^1.0.0-alpha6"
-  },
-  "resolutions": {
-    "del": "6.1"
   }
 }

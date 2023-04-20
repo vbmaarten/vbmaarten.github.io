@@ -26,11 +26,21 @@
         "broek",
         "kleren"
       ]
-    }  ],
+    },
+    {
+      "name": "Backpack",
+      "url": "https://www.bever.nl/p/lowe-alpine-frontier-45-55l-rugzak-NABBC90004.html",
+      "image": "https://productimage001.bever.nl/productimages/550x825/nabbc90004_4143_02_nl.jpg",
+      "tags": [
+        "reizen",
+        "tas"
+      ]
+    } ],
   "tags": [
     "trui",
     "broek",
     "tas",
-    "kleren"
+    "kleren",
+    "reizen"
   ]
 }

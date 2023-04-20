@@ -17,13 +17,18 @@ block content
       .sidebar-menu
         .sidebar-content
           each tag in tags
-            span.hand.badge.m-5(@click=`tags["${tag}"]=!tags["${tag}"]` x-bind:class=`tags["${tag}"] ? 'badge-danger' : ''`)=tag
+            span.hand.badge.m-5(@click=`tags["${tag}"]=!tags["${tag}"]` x-bind:class=`tags["${tag}"] ? 'badge-success' : ''`)=tag
 
     .content-wrapper
       .container
         .row
           each item in items
-            template(x-if=`(!textFilter || "${item.name}".toLowerCase().includes(textFilter.toLowerCase())) && ![${item.tags.map(t => `"${t}"`)}].some(x => tags[x])`)
+            template(x-if=`                                                     /*  ==== Only render the followin element if: ====      */
+              (!textFilter ||                                                   /*  No text filter exists ||                            */
+               "${item.name}".toLowerCase().includes(textFilter.toLowerCase())  /*  this element matches the filter (case-insensitive)  */
+              ) &&                                                              /*  ---- && ----                                        */
+              ([${tags.map(t=>`"${t}",`)}].reduce((p,c)=>p&&!tags[c],true) ||   /*  None of the tags are toggled ||                     */
+               [${item.tags.map(t => `"${t}"`)}].some(x => tags[x]))            /*  this element has one of the toggled tags            */`)  
               .col-sm-4
                   .card
                       h2.card-title #{item.name}

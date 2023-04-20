@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "yarn build:static && pug --watch -O inventory.json -o build src/index.pug",
+    "build": "yarn build:static && pug -O inventory.json -o build src/index.pug",
     "build:static": "mkdir -p build && cp src/static/* build",
     "watch": "yarn build:static && tmux new-session -d -s watch 'fish' && tmux split-window -v -t watch:0 'yarn watch:browser-sync' && tmux split-window -h -t watch:0 'bash -c \"yarn watch:pug\"' && tmux attach -t watch",
     "watch:browser-sync": "browser-sync start -f './build/*' -s build",

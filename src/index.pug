@@ -28,7 +28,8 @@ block content
                   .card
                       h2.card-title #{item.name}
                       .content
-                        img.square.img-fluid(src=item.image)
+                        a(href=item.url)
+                          img.square.img-fluid(src=item.image)
                       each tag in item.tags
                           span.badge.m-5=tag
                       .text-right

@@ -48,10 +48,30 @@
     {
       "name": "Grijs t-shirt",
       "url": "https://www.uniqlo.com/eu/en/product/100pct-supima-cotton-crew-neck-t-shirt-452399.html?dwvar_452399_size=SMA003&dwvar_452399_color=COL07",
-      "image": "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/452399/item/eugoods_07_452399.jpg?width=722&impolicy=quality_70&imformat=chrome",
+      "image": "https://image.uniqlo.com/UQ/ST3/eu/imagesgoods/452399/item/eugoods_07_452399.jpg?width=722&impolicy=quality_70",
       "tags": [
         "t-shirt",
         "kleren"
+      ]
+    },
+    {
+      "name": "Regenjas",
+      "url": "https://www.bever.nl/p/patagonia-torrentshell-3l-jacket-ACBGE00042.html?colour=2374&utm_source=google&utm_medium=organic&utm_campaign=surfaces&utm_source=google&utm_medium=cpc&utm_campaign=BEVER-PERF-ONG-PR-PLA-NB-APPAREL-JACKETS-PMAX&gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfZ121-0TZdqf85dPDlN423yroh6CQwTmrvIFpsJS0ThPx7CdCZR0g4aAtiUEALw_wcB",
+      "image": "https://productimage001.bever.nl/productimages/550x825/2210003071114_010_nl.jpg",
+      "tags": [
+        "jas",
+        "kleren",
+        "reizen"
+      ]
+    },
+    {
+      "name": "Donsjas",
+      "url": "https://www.decathlon.nl/p/donsjas-voor-bergtrekking-heren-mt100-capuchon-5-c/_/R-p-167571?channable=02893b736b756964003233353437333915&mc=8397296&gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfYp8tVfrUTwwRbRNI-Ei785vd9rJJjOqQzTcsnhi4QOwl2N4Dc1aaIaAlrZEALw_wcB",
+      "image": "https://contents.mediadecathlon.com/p1484232/k$8050b16c41001f382527389f55a3c9a5/sq/donsjas-voor-bergtrekking-heren-mt100-capuchon-5c.jpg?format=auto&f=969x969",
+      "tags": [
+        "jas",
+        "kleren",
+        "reizen
       ]
     }
   ],
@@ -61,6 +81,7 @@
     "t-shirt",
     "tas",
     "kleren",
-    "reizen"
+    "reizen",
+    "jas"
   ]
 }

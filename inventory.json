@@ -53,6 +53,13 @@
         "t-shirt",
         "kleren"
       ]
+    },{
+      "name": "Wasmiddel",
+      "url": "https://www.bol.com/nl/nl/p/ecover-vloeibaar-wasmiddel-universal-2-x-5l-voordeelbundel/9300000149144497/?bltgh=i5tBZCeBclXVj5ZMOdVFfQ.2_12.13.ProductPageUrl",
+      "image": "https://media.s-bol.com/NjvMxBMxjVvK/Nvvx1v/550x669.jpg",
+      "tags": [
+        "was"
+      ]
     },
     {
       "name": "Regenjas",
@@ -82,6 +89,7 @@
     "tas",
     "kleren",
     "reizen",
-    "jas"
+    "jas",
+    "was"
   ]
 }

@@ -88,6 +88,24 @@
       ]
     },
     {
+      "name": "Kleine thermosfles",
+      "url": "https://nl.yeti.com/products/rambler-12-oz-355-ml-bottle-with-hotshot-cap?variant=43342285308058",
+      "image": "https://nl.yeti.com/cdn/shop/products/Rambler_12oz_Canopy_Green_Bottle_Front_4099_Layers_F_Primary_B_2400x2400_13795686-e0d7-4afd-b3ed-a0795c2984af.png?v=1676999521&width=546",
+      "tags": [
+        "thermossfles",
+        "reizen"
+      ]
+    },
+    {
+      "name": "Grote thermosfles",
+      "url": "https://nl.yeti.com/products/rambler-26-oz-769-ml-bottle-with-chug-cap?variant=42312506048666",
+      "image": "https://nl.yeti.com/cdn/shop/products/Drinkware_BottleChug_36oz_Navy_Studio_Back_b260d210-0ea6-4409-a486-1b16fa7ae385.png?v=1680262779&width=546",
+      "tags": [
+        "thermossfles",
+        "reizen"
+      ]
+    },
+    {
       "name": "Donsjas",
       "url": "https://www.decathlon.nl/p/donsjas-voor-bergtrekking-heren-mt100-capuchon-5-c/_/R-p-167571?channable=02893b736b756964003233353437333915&mc=8397296&gclid=Cj0KCQjwxYOiBhC9ARIsANiEIfYp8tVfrUTwwRbRNI-Ei785vd9rJJjOqQzTcsnhi4QOwl2N4Dc1aaIaAlrZEALw_wcB",
       "image": "https://contents.mediadecathlon.com/p1484232/k$8050b16c41001f382527389f55a3c9a5/sq/donsjas-voor-bergtrekking-heren-mt100-capuchon-5c.jpg?format=auto&f=969x969",
@@ -107,6 +125,7 @@
     "reizen",
     "jas",
     "was",
-    "schoenen"
+    "schoenen",
+    "thermossfles"
   ]
 }

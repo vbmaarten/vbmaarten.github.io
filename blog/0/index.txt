@@ -1,0 +1,190 @@
+1:"$Sreact.fragment"
+2:I[7970,["970","static/chunks/970-c92a9d6897ab6f71.js","173","static/chunks/173-0c26dd97dcd696c8.js","831","static/chunks/app/blog/page-e0864ade7711998e.js"],"Image"]
+3:I[9984,["970","static/chunks/970-c92a9d6897ab6f71.js","173","static/chunks/173-0c26dd97dcd696c8.js","177","static/chunks/app/layout-bbbc5ec467b780d9.js"],"default"]
+4:I[5244,[],""]
+5:I[3866,[],""]
+7:I[6213,[],"OutletBoundary"]
+9:I[6213,[],"MetadataBoundary"]
+b:I[6213,[],"ViewportBoundary"]
+d:I[4835,[],""]
+:HL["/_next/static/media/f686a73ef698d4bc-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/409d8ae84a415574.css","style"]
+0:{"P":null,"b":"HpP9Y1JsV55jHW7ong37A","p":"","c":["","blog","0",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","0","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/409d8ae84a415574.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{}],["$","body",null,{"className":"__className_30b088 antialiased bg-gray-200 overflow-scroll","children":["$","div",null,{"className":"w-full","children":[["$","div",null,{"className":"w-full flex flex-col items-center justify-center bg-gray-50 shadow-lg sm:mb-5 py-5","children":[["$","div",null,{"className":"ml-[calc(50vw-150px)] sm:ml-0 px-2 flex flex-row items-center","children":[["$","$L2",null,{"src":"/cactus_flower_logo.svg","width":"100","height":"97","alt":"cactus flower logo"}],["$","h1",null,{"className":"font-bold uppercase text-3xl pl-6","children":"Maarten van Beek"}]]}],["$","div",null,{"className":"flex w-full min(56rem,100%)] mx-auto justify-center gap-9 pt-2","children":["$","$L3",null,{}]}]]}],["$","div",null,{"className":"max-w-4xl mx-auto flex flex-col","children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],["$","div",null,{"className":"flex items-center justify-center w-full h-full","children":["$","span",null,{"className":"text-8xl font-bold text-gray-400 text-center","children":"Not found"}]}]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","0","d"],["$","$1","c",{"children":[null,["$","div",null,{"className":"w-full bg-gray-50 shadow-lg mt-2 sm:mt-0","children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","8oSx3pdMBi6oADrH-BUxN",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Maarten van Beek"}],["$","meta","2",{"property":"og:title","content":"Maarten van Beek"}],["$","meta","3",{"property":"og:description","content":"Software developer"}],["$","meta","4",{"property":"og:site_name","content":"Maarten van Beek"}],["$","meta","5",{"property":"og:image","content":"https://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","6",{"property":"og:image:secure_url","content":"http://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","7",{"property":"og:image:width","content":"1600"}],["$","meta","8",{"property":"og:image:height","content":"900"}],["$","meta","9",{"property":"og:image:alt","content":"cactus flower logo"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Maarten van Beek"}],["$","meta","13",{"name":"twitter:description","content":"Software developer"}],["$","meta","14",{"name":"twitter:image","content":"https://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","15",{"name":"twitter:image:secure_url","content":"http://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","16",{"name":"twitter:image:width","content":"1600"}],["$","meta","17",{"name":"twitter:image:height","content":"900"}],["$","meta","18",{"name":"twitter:image:alt","content":"cactus flower logo"}]]
+8:null
+e:I[5425,["970","static/chunks/970-c92a9d6897ab6f71.js","173","static/chunks/173-0c26dd97dcd696c8.js","953","static/chunks/app/blog/%5Bslug%5D/page-3b3d82faeb35df04.js"],"default"]
+f:T3156,"use strict";
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    code: "code",
+    h1: "h1",
+    h2: "h2",
+    h3: "h3",
+    p: "p",
+    pre: "pre",
+    strong: "strong",
+    ..._provideComponents(),
+    ...props.components
+  }, {Figure, Video} = _components;
+  if (!Figure) _missingMdxReference("Figure", true);
+  if (!Video) _missingMdxReference("Video", true);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h3, {
+      children: _jsx(_components.strong, {
+        children: "TLDR;"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["In order to experiment with shaders (programs running on the GPU, utilizing its parallel power),\nI wrote a shader which renders the cactus flower logo. No premade pictures are used, the entire picture\naswell as the animations are calculated real-time. It utilizes ", _jsx(_components.strong, {
+        children: "signed distance functions (SDFs)"
+      }), " as well as the ", _jsx(_components.strong, {
+        children: "rotational symmetry"
+      }), " of the logo to achieve the result. In the post below I elaborate on\nhow it was done. The following is the result, the code is available on ", _jsx(_components.a, {
+        href: "https://www.shadertoy.com/view/tcSXzW",
+        children: "Shadertoy"
+      }), ".\n", _jsxs(Figure, {
+        children: [_jsx(Video, {
+          source: "/cactus_flower_shader_capture.mp4"
+        }), _jsx("span", {
+          children: "Render of shader for cactus flower logo"
+        })]
+      })]
+    }), "\n", _jsx(_components.h1, {
+      children: "Shaders"
+    }), "\n", _jsx(_components.p, {
+      children: "A shader is a program which runs on the GPU, commonly to render some visual.\nThey utilize the GPUs capabalities for running a high number of computations\nin parallel. This particular fragment shader is run for each pixel of the visual, outputting the\ncolor it should have for the current frame. After the color has been determined\nfor each pixel, the frame is rendered and can be shown. Then the process repeats\nfor the next frame."
+    }), "\n", _jsxs(_components.p, {
+      children: ["These shaders cannot have a dependency on the computations\ndone for another pixel, as this would break the possibility of them running in parallel.\nThere is a limited amount of input for each computation. For example, the shader does\nknow the coordinates of the pixel it is executing for, and it knows the time since it\nstarted running, however, it doesn't know the output of a computation done for a different pixel.\nThese limitations must be taken into account when writing a shader, and techniques must be applied\nto achieve the desired result despite these limitations. One such technique, are ", _jsx(_components.strong, {
+        children: "SDFs"
+      }), "."]
+    }), "\n", _jsx(_components.h1, {
+      children: "SDFs"
+    }), "\n", _jsxs(_components.p, {
+      children: ["Consider a shape you'd like to draw on your canvas. Say you would like to draw a circle. A\n", _jsx(_components.strong, {
+        children: "signed distance function (SDF)"
+      }), " is a mathematical function which describes the shortest\ndistance to this shape for any point on your canvas. On the border of your shape this distance\nwill be close to zero, further away from the shape this value will be higher. If the point\nis within your shape, the distance will be a negative number. ", _jsx(_components.a, {
+        href: "https://iquilezles.org/",
+        children: "Inigo Quilez"
+      }), "\nhas some amazing articles on the topic."]
+    }), "\n", _jsx(_components.p, {
+      children: "These functions are useful, as they can run in parallel for each pixel, independently. Perfect\nfor computations done on the GPU. We can now run the following shader for each pixel on the visual.\nFirst, we determine the SDF value for the current pixel. If the value is below zero (within the shape)\nwe color the pixel black. If the value is equal to or above zero, we color the pixel white. Without\nany knowledge of any neighbouring pixels we can now know exactly what color we have to color our pixel\nin order to render a circle on the screen."
+    }), "\n", _jsx(_components.p, {
+      children: "Another favourable characteristic of SDFs, is that they're easy to combine. If you compute the SDF\nfor two shapes, and take the highest value for these two SDFs, you now have an SDF for the space\nin which these shapes overlap. This characteristic can be used to assemble more complex shapes from\nprimitives shapes (such as circles, squares, lines, etc)."
+    }), "\n", _jsx(_components.h1, {
+      children: "This particular shader"
+    }), "\n", _jsxs(_components.p, {
+      children: ["The shader as seen above utilizes a few techniques. It uses ", _jsx(_components.strong, {
+        children: "SDFs"
+      }), " to construct the design from\nprimitive shapes."]
+    }), "\n", _jsxs(_components.p, {
+      children: ["It uses the fact that the design is the same pattern repeated 6 six times rotationally\nto reduce the amount of computations used. This may be called it's ", _jsx(_components.strong, {
+        children: "rotational symmetry"
+      }), ".\nTo achieve this, it determines whether a point lies in one of the six rotations, and then\nmaps this point to the point in the non-rotated segment. It then renders for this pixel whatever\nis renders for this point in the non rotated segment."]
+    }), "\n", _jsxs(_components.p, {
+      children: ["It ", _jsx(_components.strong, {
+        children: "warps the coordinate space"
+      }), " in order to achieve the shockwave/water effect. Within the range\nwithin which the effect is applied, the coordinates of a point are mapped to either a point further towards,\nor further away from the origin. This creates a radial distortion at a given distance from the origin.\nThe distance from the origin is a function of the runtime of the shader, which makes the effect move radially\noutward."]
+    }), "\n", _jsx(_components.h1, {
+      children: "A more indepth look"
+    }), "\n", _jsxs(_components.p, {
+      children: ["The entire code for this shader can be found on ", _jsx(_components.a, {
+        href: "https://www.shadertoy.com/view/tcSXzW",
+        children: "Shadertoy"
+      }), ".\nAs reading this code without any prior knowledge can be challenging, I will elaborate on some of the techniques\nused in the shader."]
+    }), "\n", _jsx(_components.h2, {
+      children: "Normalizing the coordinate space"
+    }), "\n", _jsxs(_components.p, {
+      children: ["By default a pixel its coordinates depend on the resolution of the render. ", _jsx(_components.code, {
+        children: "(0,0)"
+      }), " lies in the bottom left corner.\nThe x coordinates will then be an integer ", _jsx(_components.code, {
+        children: ">= 0"
+      }), " and ", _jsx(_components.code, {
+        children: "< horizontal_resolution"
+      }), ". The y coordinate is the same,\nbut considering its vertical resolution. It's practical for these coordinates to be resolution independent, in order\nto render on any given resolution. Therefore the coordinates are mapped to values ranging from ", _jsx(_components.code, {
+        children: "-1"
+      }), " to ", _jsx(_components.code, {
+        children: "1"
+      }), ", where\n", _jsx(_components.code, {
+        children: "(-1,-1)"
+      }), " is the bottom left corner and ", _jsx(_components.code, {
+        children: "(1,1)"
+      }), " is the top right corner. This is all achieved by the following code"]
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        children: "#define shortestWidth min(iResolution.x,iResolution.y)\n\n// fragCoord is the (x,y) coordinate of the current pixel relative to the resolution\nvec2 uv = (2.*fragCoord-iResolution.xy)/shortestWidth;\n"
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Achieving rotational symmetry"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        children: "length(uv) * cos((mod(atan(uv.y/uv.x)-PI/3.,PI/3.)+PI/3.)+vec2(0., -0.5*PI));\n"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["This requires some dissecting. If you consider the coordinates of the current pixel a vector from the origin,\n", _jsx(_components.code, {
+        children: "atan(uv.y/uv.x)"
+      }), " computes the angle of this vector. We want the segment facing upward to be our default segment,\nas in this sector the x and y dimensions are running in their usual direction. Taking the modulo of this angle\nmakes sure that if we exceed this angle beyond 1/6th of the full rotation, we normalize it back to this initial segment.\nThe ", _jsx(_components.code, {
+        children: "cos(angle, angle+0.5*PI)"
+      }), " converts this angle back to coordinates. We have lost the length information for this\nvector, so these coordinates will now always be at exactly distance ", _jsx(_components.code, {
+        children: "1"
+      }), " from the origin. Therefore we multiple the\nresult with ", _jsx(_components.code, {
+        children: "length(uv)"
+      }), ", the length of the original vector. The result is that any point will be mapped to\nthis 1/6th segment of the canvas, pointing upwards. The consequence is that any rendered pixel is repeated 6 times\nrotationally."]
+    }), "\n", _jsx(_components.h2, {
+      children: "Shockwave / water effect"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        children: "float width = 0.2;\nfloat strength = .2;\nfloat progress = min(max(length(uv)-startVectorLength, 0.), width)/width; \nfloat deformationFactor = 1. + strength*sin(PI*progress+PI); \nreturn uv*deformationFactor;\n"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["This is written less compactly, but isn't more complex than anything that has come before.\nThe ", _jsx(_components.code, {
+        children: "width"
+      }), " and ", _jsx(_components.code, {
+        children: "strength"
+      }), " are constants tune the effect to look good. The ", _jsx(_components.code, {
+        children: "progress"
+      }), "\nvariable takes the distance from the origin to the current point, and determines whether\nit lies within the effect by considering the ", _jsx(_components.code, {
+        children: "startVectorLength"
+      }), " (distance at which the effect begins)\nand the ", _jsx(_components.code, {
+        children: "width"
+      }), " (distance that the effect lasts). If it does, it determins the deformation strength.\nThis strength is small at the start and end distances of the effect, and peaks in the middle.\nThis strength is then applied to the coordinates of the current pixel, to instead render a pixel\nthat's supposed to be further out or in."]
+    }), "\n", _jsx(_components.h1, {
+      children: "Conclusion"
+    }), "\n", _jsxs(_components.p, {
+      children: ["It requires some unusual thinking to get a shader right. Most programs written for a CPU\niterate over the given space, maintaining state as they do.\nWriting a shader is like writing a loop in which each iteration is executed instantaniously,\nand no state can be maintained. While this might be initially challenging, the results are of\nhigher performance than an iterative approach would likely be. ", _jsx(_components.a, {
+        href: "https://www.shadertoy.com",
+        children: "Shadertoy"
+      }), "\nis full of creative ways people have used shaders to create beautiful visuals. ", _jsx(_components.a, {
+        href: "https://www.shadertoy.com/view/4ttSWf",
+        children: "This"
+      }), ",\n", _jsx(_components.a, {
+        href: "https://www.shadertoy.com/view/Ms2SD1",
+        children: "this"
+      }), " and ", _jsx(_components.a, {
+        href: "https://www.shadertoy.com/view/tlVGDt",
+        children: "this"
+      }), " are great\nexamples of people using shaders to get great realtime results, give them a look!"]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ..._provideComponents(),
+    ...props.components
+  };
+  return MDXLayout ? _jsx(MDXLayout, {
+    ...props,
+    children: _jsx(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+6:["$","$Le",null,{"compiledSource":"$f","frontmatter":{"title":"Cactus flower shader","thumb":"/cactus_flower_shader_thumb.jpg","summary":"A shader for the cactus flower logo, using SDFs","image":"https://picsum.photos/seed/thumb1/1600/900"},"scope":{},"image":"https://picsum.photos/seed/thumb1/1600/900"}]

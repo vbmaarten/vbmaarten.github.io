@@ -1,0 +1,149 @@
+1:"$Sreact.fragment"
+2:I[3704,["970","static/chunks/970-79db36b6071f5978.js","177","static/chunks/app/layout-56dd59a221d1350e.js"],""]
+3:I[7970,["970","static/chunks/970-79db36b6071f5978.js","173","static/chunks/173-1538d3dcf2ebdc5c.js","831","static/chunks/app/blog/page-e0864ade7711998e.js"],"Image"]
+4:I[5244,[],""]
+5:I[3866,[],""]
+7:I[6213,[],"OutletBoundary"]
+9:I[6213,[],"MetadataBoundary"]
+b:I[6213,[],"ViewportBoundary"]
+d:I[4835,[],""]
+:HL["/_next/static/media/215b7dfa0255317a-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/f09ed06a7133173e.css","style"]
+0:{"P":null,"b":"dQpRdL5TI4q9htV-LZP7E","p":"","c":["","blog","3",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","3","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/f09ed06a7133173e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_4e00c6 antialiased bg-gray-200 overflow-scroll","children":[["$","$L2",null,{"src":"/hljs/highlight.min.js"}],["$","$L2",null,{"src":"/hljs/glsl.min.js"}],["$","div",null,{"className":"w-full","children":[["$","div",null,{"className":"w-full flex flex-col items-center justify-center bg-gray-50 shadow-lg sm:mb-5 py-5","children":["$","div",null,{"className":"ml-[calc(50vw-150px)] sm:ml-0 px-2 flex flex-row items-center","children":[["$","$L3",null,{"src":"/cactus_flower_logo.svg","width":"100","height":"97","alt":"cactus flower logo"}],["$","h1",null,{"className":"font-bold uppercase text-3xl pl-6","children":"Maarten van Beek"}]]}]}],["$","div",null,{"className":"max-w-4xl mx-auto flex flex-col","children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],["$","div",null,{"className":"flex items-center justify-center w-full h-full","children":["$","span",null,{"className":"text-8xl font-bold text-gray-400 text-center","children":"Not found"}]}]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","3","d"],["$","$1","c",{"children":[null,["$","div",null,{"className":"w-full bg-gray-50 shadow-lg mt-2 sm:mt-0","children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L6",null,["$","$L7",null,{"children":"$L8"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","LWMFJS-zgBUUfTATuYvlc",{"children":[["$","$L9",null,{"children":"$La"}],["$","$Lb",null,{"children":"$Lc"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$d","$undefined"],"s":false,"S":true}
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Maarten van Beek"}],["$","meta","2",{"property":"og:title","content":"Maarten van Beek"}],["$","meta","3",{"property":"og:description","content":"Software developer"}],["$","meta","4",{"property":"og:site_name","content":"Maarten van Beek"}],["$","meta","5",{"property":"og:image","content":"https://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","6",{"property":"og:image:secure_url","content":"http://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","7",{"property":"og:image:width","content":"1600"}],["$","meta","8",{"property":"og:image:height","content":"900"}],["$","meta","9",{"property":"og:image:alt","content":"cactus flower logo"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Maarten van Beek"}],["$","meta","13",{"name":"twitter:description","content":"Software developer"}],["$","meta","14",{"name":"twitter:image","content":"https://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","15",{"name":"twitter:image:secure_url","content":"http://www.maartenvb.org/cactus_flower_logo.png"}],["$","meta","16",{"name":"twitter:image:width","content":"1600"}],["$","meta","17",{"name":"twitter:image:height","content":"900"}],["$","meta","18",{"name":"twitter:image:alt","content":"cactus flower logo"}]]
+8:null
+e:I[5425,["970","static/chunks/970-79db36b6071f5978.js","173","static/chunks/173-1538d3dcf2ebdc5c.js","953","static/chunks/app/blog/%5Bslug%5D/page-c3b3a1ad1bbe3b19.js"],"default"]
+f:T172d,"use strict";
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    code: "code",
+    h1: "h1",
+    li: "li",
+    p: "p",
+    pre: "pre",
+    strong: "strong",
+    ul: "ul",
+    ..._provideComponents(),
+    ...props.components
+  };
+  return _jsxs(_Fragment, {
+    children: [_jsxs(_components.p, {
+      children: ["This post outlines a solution to the leetcode problem ", _jsx(_components.a, {
+        href: "https://leetcode.com/problems/can-place-flowers",
+        children: "can-place-flowers"
+      }), "."]
+    }), "\n", _jsx(_components.h1, {
+      children: "The problem"
+    }), "\n", _jsx(_components.p, {
+      children: "The problem is layed out as follows:"
+    }), "\n", _jsxs(_components.p, {
+      children: ["You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in ", _jsx(_components.strong, {
+        children: "adjacent"
+      }), " plots."]
+    }), "\n", _jsxs(_components.p, {
+      children: ["Given an integer array ", _jsx(_components.code, {
+        children: "flowerbed"
+      }), " containing ", _jsx(_components.code, {
+        children: "0"
+      }), "'s and ", _jsx(_components.code, {
+        children: "1"
+      }), "'s, where ", _jsx(_components.code, {
+        children: "0"
+      }), " means empty and ", _jsx(_components.code, {
+        children: "1"
+      }), " means not empty, and an integer ", _jsx(_components.code, {
+        children: "n"
+      }), ", return ", _jsx(_components.code, {
+        children: "true"
+      }), " if ", _jsx(_components.code, {
+        children: "n"
+      }), " new flowers can be planted in the ", _jsx(_components.code, {
+        children: "flowerbed"
+      }), " without violating the no-adjacent-flowers rule and ", _jsx(_components.code, {
+        children: "false"
+      }), " otherwise."]
+    }), "\n", _jsx(_components.h1, {
+      children: "The analysis"
+    }), "\n", _jsx(_components.p, {
+      children: "We can break the problem in to 2 sub problems:"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "Determine the maximum amount of plots in which we can plant flowers"
+      }), "\n", _jsxs(_components.li, {
+        children: ["If this maximum amount is ", _jsx(_components.code, {
+          children: ">= n"
+        }), " return ", _jsx(_components.code, {
+          children: "true"
+        }), " and return ", _jsx(_components.code, {
+          children: "false"
+        }), " otherwise."]
+      }), "\n"]
+    }), "\n", _jsxs(_components.p, {
+      children: ["The second part is trivial, so we can focus on the first part.\nWe can consider our input a string of ", _jsx(_components.code, {
+        children: "0"
+      }), "'s' interrupted by ", _jsx(_components.code, {
+        children: "1"
+      }), "'s. Any plants planted in one of these sub strings\ndoes not influence the capacity of any of the other sub strings, as none of the elements of different sub strings\ncan be adjacent to one another. Therefore, the maximum amount of flowers we can plant is the sum of the maximum\namount of plants we can plant in any of the sub strings. Therefore, all we have to do is determine the max amount\nof ", _jsx(_components.code, {
+        children: "1"
+      }), "'s we can put in a substring of zero's. This is simply half of the length of the substring, rounding up if\nthere are an odd number of ", _jsx(_components.code, {
+        children: "0"
+      }), "'s"]
+    }), "\n", _jsx(_components.h1, {
+      children: "Resulting code"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        children: "function canPlaceFlowers(flowerbed: number[], n: number): boolean {\n    let totalSum = 0;\n    let partialSum = 0;\n\n    let i = 0;\n\n    while(i < flowerbed.length){\n        const current = flowerbed[i];\n\n        switch(current){\n            case 0:\n                partialSum += 1;\n                break;\n            case 1:\n                const currentSum = Math.max(partialSum - 1, 0);\n                totalSum += Math.ceil(currentSum/2);\n                partialSum = 0\n                i++;\n                break;\n        }\n\n        i++;\n    }\n\n    const currentSum = Math.max(partialSum, 0);\n    totalSum += Math.ceil(currentSum/2);\n    return n <= totalSum;\n};\n"
+      })
+    }), "\n", _jsx(_components.h1, {
+      children: "Time complexity"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "O(n)"
+      }), ", where ", _jsx(_components.code, {
+        children: "n"
+      }), " is the amount of plots in the ", _jsx(_components.code, {
+        children: "flowerbed"
+      }), "."]
+    }), "\n", _jsx(_components.h1, {
+      children: "Space complexity"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "O(1)"
+      }), ", We only use a static amount of variables ", _jsx(_components.code, {
+        children: "totalSum"
+      }), ", ", _jsx(_components.code, {
+        children: "partiaSum"
+      }), ", ", _jsx(_components.code, {
+        children: "i"
+      }), ", ", _jsx(_components.code, {
+        children: "current"
+      }), ", and ", _jsx(_components.code, {
+        children: "currentSum"
+      }), ". Where ", _jsx(_components.code, {
+        children: "current"
+      }), " and ", _jsx(_components.code, {
+        children: "currentSum"
+      }), "\nare reused every loop."]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ..._provideComponents(),
+    ...props.components
+  };
+  return MDXLayout ? _jsx(MDXLayout, {
+    ...props,
+    children: _jsx(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+6:["$","$Le",null,{"compiledSource":"$f","frontmatter":{"title":"LeetCode Can Place Flowers","thumb":"https://picsum.photos/seed/thumb3/100/100","summary":"Can Place Flowers problem on leet code","image":"https://picsum.photos/seed/header3/1600/900"},"scope":{},"image":"https://picsum.photos/seed/header3/1600/900"}]
